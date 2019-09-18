@@ -1,0 +1,22 @@
+.kaonashi1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 45%;
+    top: 45%;
+    opacity: 0;
+    background:url('kaonashi1.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    animation: kaonashi1-animation 3s linear 1s infinite normal;
+}
+
+@keyframes kaonashi1-animation{
+    0%   {opacity:1;}
+    20%  {opacity:0.5;  transform:translateX(100px)}
+    40%  {opacity:0.25; transform:translateY(100px)}
+    60%  {opacity:0.5;  transform:translateX(-100px)}
+    80%  {opacity:0.25; }
+    90%  {opacity:0;}
+    100% {opacity:0;}
+}
