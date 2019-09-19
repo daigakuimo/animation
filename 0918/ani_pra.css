@@ -7,7 +7,7 @@ body{
     left:25%;
     animation: scrollmask 7s ease 1.4s infinite alternate;
     -webkit-background-clip: text;
-    background-image: url('./pic/kaonashi1.jpg');
+    background-image: url('kaonashi1.jpg');
     color: transparent;
     font-size: 200px;
 }
