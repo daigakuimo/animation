@@ -1,0 +1,18 @@
+body{
+    background-color:#000000;
+}
+
+.kaonashi-mask h2{
+    position: absolute;
+    left:25%;
+    animation: scrollmask 7s ease 1.4s infinite alternate;
+    -webkit-background-clip: text;
+    background-image: url('./pic/kaonashi1.jpg');
+    color: transparent;
+    font-size: 200px;
+}
+
+@keyframes scrollmask{
+    0% {background-position: 0 0;}
+    100% {background-position: 100% 0;}
+}
