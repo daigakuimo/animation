@@ -18,15 +18,21 @@ button{
 @media screen and (min-width:480px){
     .kaonashi_button{
         position: absolute;
-        width:198px;
+        width:172px;
         height:194px;
-        left: 40%;
+        left: 42%;
         top:88%;
     }
 
     .kaonashi_img{
-        width:198px;
+        width:172px;
         height:194px;
+        box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.29);
+    }
+
+    .kaonashi_img:active{
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.29);
+        transform: translateY(2px);
     }
 
     .voice{
@@ -49,24 +55,24 @@ button{
     }
 
     .voice1{
-        -webkit-animation: voice_move 10s linear 0s;
-        animation:voice_move 10s linear 0s;
+        -webkit-animation: voice_move 7s linear 0s;
+        animation:voice_move 7s linear 0s;
     }
     .voice2{
-        -webkit-animation: voice_move 10s linear 0.5s;
-        animation:voice_move 10s linear 0.5s;
+        -webkit-animation: voice_move 7s linear 0.5s;
+        animation:voice_move 7s linear 0.5s;
     }
     .voice3{
-        -webkit-animation: voice_move 10s linear 1s;
-        animation:voice_move 10s linear 1s;
+        -webkit-animation: voice_move 7s linear 1s;
+        animation:voice_move 7s linear 1s;
     }
     .voice4{
-        -webkit-animation: voice_move 10s linear 1.5s;
-        animation:voice_move 10s linear 1.5s;
+        -webkit-animation: voice_move 7s linear 1.5s;
+        animation:voice_move 7s linear 1.5s;
     }
     .voice5{
-        -webkit-animation: voice_move 10s linear 2s;
-        animation:voice_move 10s linear 2s;
+        -webkit-animation: voice_move 7s linear 2s;
+        animation:voice_move 7s linear 2s;
     }
 }
 
@@ -84,6 +90,12 @@ button{
     .kaonashi_img{
         width:198px;
         height:194px;
+        box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.29);
+    }
+
+    .kaonashi_img:active{
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.29);
+        transform: translateY(2px);
     }
 
     .voice{
@@ -106,24 +118,24 @@ button{
     }
 
     .voice1{
-        -webkit-animation: voice_move 10s linear 0s;
-        animation:voice_move 10s linear 0s;
+        -webkit-animation: voice_move 7s linear 0s;
+        animation:voice_move 7s linear 0s;
     }
     .voice2{
-        -webkit-animation: voice_move 10s linear 0.5s;
-        animation:voice_move 10s linear 0.5s;
+        -webkit-animation: voice_move 7s linear 0.5s;
+        animation:voice_move 7s linear 0.5s;
     }
     .voice3{
-        -webkit-animation: voice_move 10s linear 1s;
-        animation:voice_move 10s linear 1s;
+        -webkit-animation: voice_move 7s linear 1s;
+        animation:voice_move 7s linear 1s;
     }
     .voice4{
-        -webkit-animation: voice_move 10s linear 1.5s;
-        animation:voice_move 10s linear 1.5s;
+        -webkit-animation: voice_move 7s linear 1.5s;
+        animation:voice_move 7s linear 1.5s;
     }
     .voice5{
-        -webkit-animation: voice_move 10s linear 2s;
-        animation:voice_move 10s linear 2s;
+        -webkit-animation: voice_move 7s linear 2s;
+        animation:voice_move 7s linear 2s;
     }
 }
 
