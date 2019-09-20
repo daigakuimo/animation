@@ -6,8 +6,8 @@ body{
     position: absolute;
     left:20%;
     top:20%;
-    width:198px;
-    height: 194px;
+    width:396px;
+    height: 388px;
     -webkit-animation-name: zoomInLeft;
     animation-name: zoomInLeft;
     background-image:url('no_kaonashi.png');
@@ -19,8 +19,8 @@ body{
     position: absolute;
     left:20%;
     top:20%;
-    width:198px;
-    height: 194px;
+    width:396px;
+    height: 388px;
     -webkit-animation-name: zoomInRight;
     animation-name: zoomInRight;
     background-image:url('no_kaonashi.png');
