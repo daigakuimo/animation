@@ -88,8 +88,8 @@ button{
 
     .voice{
         position: absolute;
-        left:35%;
-        top:95%;
+        left:43%;
+        top:86%;
         width:70px;
         height:70px;
     }
@@ -97,8 +97,8 @@ button{
     .voice p{
         position: absolute;
         opacity:0;
-        left:40%;
-        top:85%;
+        left:48%;
+        top:76%;
         width:70px;
         height:70px;
         font-family: "ヒラギノ角ゴシック";
