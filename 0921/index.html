@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="uft-8">
-<title>HTML入門-JavaScriptの基本</title>
-<script>
-alert("Hello World!");
-</script>
+    <head>
+        <meta charset="uft-8">
+    <title>カオナシの叫び</title>
+    <link rel="stylesheet" type="text/css" href="kaonashi_voice.css">
+    <script>
+        function add()
+        {
+            var div_element = document.createElement("div");
+            div_element.className = "voice";
+            div_element.innerHTML = '<p class="voice1">あ</p> <p class="voice2">っ</p> <p class="voice3">・</p> <p class="voice4">・</p> <p class="voice5">・</p>'; 
+            document.body.appendChild(div_element);
+        }
+    </script>
 </head>
-<body>
-<p>JavaScriptのメッセージは表示されましたか？</p>
-</body>
+    <body>
+        <div class="kaonashi_button">
+            <button onclick="add();"><img class="kaonashi_img" src="kirinuki_kaonashi.png" alt="あっ・・・"></button>
+        </div>
+    </body>
 </html>

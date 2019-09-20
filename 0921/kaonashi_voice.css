@@ -1,0 +1,140 @@
+body{
+    -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+@media screen and (min-width:480px){
+    .kaonashi_button{
+        position: absolute;
+        width:198px;
+        height:194px;
+        left: 40%;
+        top:88%;
+    }
+    
+    .kaonashi_img{
+        width:198px;
+        height:194px;
+    }
+
+    .voice{
+        position: absolute;
+        left:35%;
+        top:90%;
+        width:70px;
+        height:70px;
+    }
+
+    .voice p{
+        position: absolute;
+        opacity:0;
+        left:40%;
+        top:85%;
+        width:70px;
+        height:70px;
+        font-family: "ヒラギノ角ゴシック";
+        font-size:60px;
+    }
+
+    .voice1{
+        -webkit-animation: voice_move 10s linear 0s;
+        animation:voice_move 10s linear 0s;
+    }
+    .voice2{
+        -webkit-animation: voice_move 10s linear 0.5s;
+        animation:voice_move 10s linear 0.5s;
+    }
+    .voice3{
+        -webkit-animation: voice_move 10s linear 1s;
+        animation:voice_move 10s linear 1s;
+    }
+    .voice4{
+        -webkit-animation: voice_move 10s linear 1.5s;
+        animation:voice_move 10s linear 1.5s;
+    }
+    .voice5{
+        -webkit-animation: voice_move 10s linear 2s;
+        animation:voice_move 10s linear 2s;
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+
+    .kaonashi_button{
+        position: absolute;
+        width:198px;
+        height:194px;
+        left: 45%;
+        top:78%;
+    }
+    
+    .kaonashi_img{
+        width:198px;
+        height:194px;
+    }
+}
+
+@-webkit-keyframes voice_move{
+    0%{
+        opacity:0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(0,0,0);
+        transform: scale3d(.1, .1, .1) translate3d(0,0,0);
+    }
+    20%{
+        opacity:0.5;
+        -webkit-transform: scale3d(.5, .5, .5) translate3d(100px,-300px,0);
+        transform: scale3d(.5, .5, .5) translate3d(100px,-300px,0);
+    }
+    40%{
+        opacity:1;
+        -webkit-transform: scale3d(1, 1, 1) translate3d(0px,-500px,0);
+        transform: scale3d(1, 1, 1) translate3d(0px,-500px,0);
+    }
+    60%{
+        opacity:1;
+        -webkit-transform: scale3d(1, 1, 1) translate3d(100px,-800px,0);
+        transform: scale3d(1, 1, 1) translate3d(100px,-800px,0);
+    }80%{
+        opacity:0.5;
+        -webkit-transform: scale3d(1, 1, 1) translate3d(0px,-1000px,0);
+        transform: scale3d(1, 1, 1) translate3d(0px,-1000px,0);
+    }100%{
+        opacity:0;
+        -webkit-transform: scale3d(1, 1, 1) translate3d(100px,-1200px,0);
+        transform: scale3d(1, 1, 1) translate3d(100px,-1200px,0);
+    }
+    
+}
+
+@keyframes voice_move{
+    0%{
+        opacity:0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(0,0,0);
+        transform: scale3d(.1, .1, .1) translate3d(0,0,0);
+    }
+    20%{
+        opacity:0.5;
+        -webkit-transform: scale3d(.5, .5, .5) translate3d(100px,-300px,0);
+        transform: scale3d(.5, .5, .5) translate3d(100px,-300px,0);
+    }
+    40%{
+        opacity:1;
+        -webkit-transform: scale3d(1, 1, 1) translate3d(0px,-500px,0);
+        transform: scale3d(1, 1, 1) translate3d(0px,-500px,0);
+    }
+    60%{
+        opacity:1;
+        -webkit-transform: scale3d(1, 1, 1) translate3d(100px,-800px,0);
+        transform: scale3d(1, 1, 1) translate3d(100px,-800px,0);
+    }80%{
+        opacity:0.5;
+        -webkit-transform: scale3d(1, 1, 1) translate3d(0px,-1000px,0);
+        transform: scale3d(1, 1, 1) translate3d(0px,-1000px,0);
+    }100%{
+        opacity:0;
+        -webkit-transform: scale3d(1, 1, 1) translate3d(100px,-1200px,0);
+        transform: scale3d(1, 1, 1) translate3d(100px,-1200px,0);
+    }
+    
+    
+}
