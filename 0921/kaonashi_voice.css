@@ -23,6 +23,11 @@ button{
         left: 40%;
         top:88%;
     }
+
+    .kaonashi_bu{
+        width:198px;
+        height:194px;
+    }
     
     .kaonashi_img{
         width:198px;
@@ -79,6 +84,11 @@ button{
         height:194px;
         left: 45%;
         top:78%;
+    }
+
+    .kaonashi_bu{
+        width:198px;
+        height:194px;
     }
     
     .kaonashi_img{
