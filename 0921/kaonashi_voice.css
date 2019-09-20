@@ -2,6 +2,19 @@ body{
     -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
 }
+
+button{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: visible;
+    cursor: pointer;
+}
+
 @media screen and (min-width:480px){
     .kaonashi_button{
         position: absolute;
@@ -71,6 +84,46 @@ body{
     .kaonashi_img{
         width:198px;
         height:194px;
+    }
+
+    .voice{
+        position: absolute;
+        left:35%;
+        top:90%;
+        width:70px;
+        height:70px;
+    }
+
+    .voice p{
+        position: absolute;
+        opacity:0;
+        left:40%;
+        top:85%;
+        width:70px;
+        height:70px;
+        font-family: "ヒラギノ角ゴシック";
+        font-size:60px;
+    }
+
+    .voice1{
+        -webkit-animation: voice_move 10s linear 0s;
+        animation:voice_move 10s linear 0s;
+    }
+    .voice2{
+        -webkit-animation: voice_move 10s linear 0.5s;
+        animation:voice_move 10s linear 0.5s;
+    }
+    .voice3{
+        -webkit-animation: voice_move 10s linear 1s;
+        animation:voice_move 10s linear 1s;
+    }
+    .voice4{
+        -webkit-animation: voice_move 10s linear 1.5s;
+        animation:voice_move 10s linear 1.5s;
+    }
+    .voice5{
+        -webkit-animation: voice_move 10s linear 2s;
+        animation:voice_move 10s linear 2s;
     }
 }
 
