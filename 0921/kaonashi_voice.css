@@ -32,6 +32,7 @@ button{
 
     .kaonashi_img:active{
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.29);
+        -webkit-transform:translateY(2px);
         transform: translateY(2px);
     }
 
@@ -95,7 +96,9 @@ button{
 
     .kaonashi_img:active{
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.29);
+        -webkit-transform:translateY(2px);
         transform: translateY(2px);
+
     }
 
     .voice{
