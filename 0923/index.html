@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title>回る回るカオナシは回る</title>
+        <link rel="stylesheet" type="text/css" href="spin_kaonashi.css">
+        <script>
+            function speedChange()
+            {
+                var element = document.getElementById("kaonashi_img");
+                
+                element.style.animationDuration = "0.5s";
+                element.style.webkitAnimationDuration = "0.5s";
+            
+            }
+        </script>
+    </head>
+    <body>
+        <div class="kaonashi">
+            <button class="kaonashi_button" onclick="speedChange();"><img id="kaonashi_img" class="kaonashi_img" src="../kaodake_kaonashi.jpg" ></button>
+        </div>
+    </body>
+</html>
