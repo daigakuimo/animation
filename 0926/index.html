@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="circle.css">
+    </head>
+    <script>
+        function addCircle(position){
+            var div_element = document.createElement("div");
+            if(position == "center")
+            {
+                div_element.className = "center-circle";
+            }
+            else if(position == "left")
+            {
+                div_element.className = "left-circle";
+            }
+            else if(position == "top")
+            {
+                div_element.className = "top-circle";
+            }
+            else if(position == "right")
+            {
+                div_element.className = "right-circle";
+            }
+            else if(position == "bottom")
+            {
+                div_element.className = "bottom-circle";
+            }
+            document.body.appendChild(div_element);
+        }
+    </script>
+    <body>
+        <button class="center-button" onclick="addCircle('center');"></button>
+        <button class="left-button" onclick="addCircle('left');"></button>
+        <button class="top-button" onclick="addCircle('top');"></button>
+        <button class="right-button" onclick="addCircle('right');"></button>
+        <button class="bottom-button" onclick="addCircle('bottom');"></button>
+    </body>
+</html>
