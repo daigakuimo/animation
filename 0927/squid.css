@@ -1,0 +1,57 @@
+html,body{
+    height: 100%;
+}
+
+.ele{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width:178px;
+    height:226px;
+}
+
+.squid-parent{
+    position: relative;
+    width:178px;
+    height:226px;
+}
+
+.ink{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translateY(8%);
+    width:178px;
+    height:226px;
+}
+
+.squid{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width:52px;
+    height:60px;
+    -webkit-animation: squid-move 1s ease infinite;
+    animation: squid-move 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes squid-move{
+    0%  {transform: translate(0,0);}
+    50% {transform: translate(-20%,-40%);}
+    100%{transform: translate(0,0);}
+}
+
+@keyframes squid-move{
+    0%  {transform: translate(0,0);}
+    50% {transform: translate(-20%,-40%);}
+    100%{transform: translate(0,0);}
+}
