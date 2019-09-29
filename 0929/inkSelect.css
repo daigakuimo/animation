@@ -1,0 +1,42 @@
+.ink_select{
+    position:relative;
+    width: 178px;
+    height: 226px;
+    margin:auto;
+    text-align:center;
+    background-image:url(../pic/ink.png);
+    background-repeat: no-repeat;
+}
+
+.ika_form{
+    position: relative;
+    top: 35%;
+    width: 33%;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgbs(0,0,0, 0.3);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color: white;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-image:url(../pic/top_bnr_ico01.png);
+    background-repeat: no-repeat;
+    background-size: 13px 15px;
+    background-position: right 10px center;
+}
+
+.ika_form::-ms-expand {
+	display: none;
+}
+
+.ika_form:focus{
+    outline: none;
+    border-bottom: 1px solid rgba(0,0,0, 0);
+}
+
+option{
+    background-color: #CC00FF;
+}
