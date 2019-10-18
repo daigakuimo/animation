@@ -1,0 +1,29 @@
+body{
+    background:skyblue;
+}
+
+.drop-container{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    animation: drop-move 1.5s linear infinite 1s;
+}
+.drop{
+    position:absolute;
+    top: -25%;
+    width: 100%;
+    height: 100%;
+    border-radius: 100% 5% 100% 100%;
+    transform: rotate(-45deg);
+    background:  blue; 
+}
+
+@keyframes drop-move {
+      0% {transform: translateY(0);}
+    100% {transform: translateY(1000px);}
+}

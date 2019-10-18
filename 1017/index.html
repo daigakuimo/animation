@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>create cloud</title>
+        <link rel="stylesheet" type="text/css" href="createCloud.css">
+        <script>
+                function createCloud(index)
+                {
+                    var div_element = document.createElement("div");
+                    div_element.className = "ena wrap" + index;
+                    div_element.id = index;
+                    div_element.innerHTML = '<div class="cloud' + index + '"></div>'; 
+                    document.body.appendChild(div_element);
+
+                    if(index == 4)
+                    {
+                        return;
+                    }
+                    index = index + 1;
+                    createCloud(index);
+                }
+
+                function drop(id)
+                {
+                    var cloud_element = document.getElementById(id);
+
+                }
+        </script>
+    </head>
+    <body>
+        <script>
+            createCloud(1);
+        </script>
+        <!-- <div class="wrap1" style="left: 300px; top: 500px;">
+            <div class="cloud1" ></div>
+        </div>
+        <div class="wrap1" style="left: 800px; top: 100px;">
+            <div class="cloud1" ></div>
+        </div> -->
+    </body>
+</html>

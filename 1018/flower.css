@@ -1,0 +1,147 @@
+html,body{
+    height: 100%;
+    background-color: aqua;
+}
+
+.ground{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    border-radius: 50% 50% 0px 0px/ 100% 100% 0px 0px;
+    background-color: yellowgreen;
+}
+
+.cotyledon-container{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.flower-container{
+    position: absolute;
+    bottom: 90px;
+    left: 40%;
+    width: 50px;
+    height: 50px;
+}
+
+.left-cotyledon{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    left: 5px;
+    bottom: 27px;
+    transform: rotate(-20deg);
+    border-radius: 0px 17px 0px 17px/ 0px 17px 0px 17px;
+    background-color: yellowgreen;
+}
+
+.right-cotyledon{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    left: 25px;
+    bottom: 27px;
+    transform: rotate(20deg);
+    border-radius: 17px 0px 17px 0px/ 17px 0px 17px 0px;
+    background-color: yellowgreen;
+}
+
+.stem{
+    position: absolute;
+    width: 3px;
+    height: 30px;
+    left: 24px;
+    bottom: 0;
+    background-color: brown;
+}
+
+.left-leaf{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    left: 5px;
+    bottom: 0;
+    border-radius: 0px 17px 0px 17px/ 0px 17px 0px 17px;
+    background-color: yellowgreen;
+    box-shadow: 2px;
+}
+
+.right-leaf{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    left: 25px;
+    bottom: 0;
+    border-radius: 17px 0px 17px 0px/ 17px 0px 17px 0px;
+    background-color: yellowgreen;
+    box-shadow: 2px;
+}
+
+.hanabira1{
+    position:absolute;
+    width: 16px;
+    height: 20px;
+    left: 18px;
+    bottom: 33px;
+    transform: rotate(0deg);
+    border-radius: 8px 8px 8px 8px/ 10px 10px 10px 10px;
+    background-color: pink;
+}
+
+.hanabira2{
+    position:absolute;
+    width: 16px;
+    height: 20px;
+    left: 27px;
+    bottom: 28px;
+    transform: rotate(75deg);
+    border-radius: 8px 8px 8px 8px/ 10px 10px 10px 10px;
+    background-color: pink;
+}
+
+.hanabira3{
+    position:absolute;
+    width: 16px;
+    height: 20px;
+    right: 27px;
+    bottom: 28px;
+    transform: rotate(-75deg);
+    border-radius: 8px 8px 8px 8px/ 10px 10px 10px 10px;
+    background-color: pink;
+}
+
+.hanabira4{
+    position:absolute;
+    width: 16px;
+    height: 20px;
+    left: 23px;
+    bottom: 18px;
+    transform: rotate(150deg);
+    border-radius: 8px 8px 8px 8px/ 10px 10px 10px 10px;
+    background-color: pink;
+}
+
+.hanabira5{
+    position:absolute;
+    width: 16px;
+    height: 20px;
+    right: 22px;
+    bottom: 18px;
+    transform: rotate(-150deg);
+    border-radius: 8px 8px 8px 8px/ 10px 10px 10px 10px;
+    background-color: pink;
+}
+
+.flower-center{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    left: 21px;
+    bottom: 29px;
+    border-radius: 50%;
+    background-color: yellow;
+}
