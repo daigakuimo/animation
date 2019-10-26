@@ -1,0 +1,17 @@
+.kaonashi{
+    position:absolute;
+    width:198px;
+    height:193px;
+    background-image:url("../kaonashi1.jpg");
+    background-size:198px 193px;
+    animation:move 5s infinite alternate;
+}
+
+@keyframes move{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(1000px);
+    }
+}
